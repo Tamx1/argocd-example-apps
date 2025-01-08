@@ -745,7 +745,7 @@ sidecars: []
 service:
   ## @param service.type MinIO&reg; service type
   ##
-  type: NodeIP
+  type: NodePort
   ## @param service.ports.api MinIO&reg; API service port
   ## @param service.ports.console MinIO&reg; Console service port
   ##
