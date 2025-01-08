@@ -21,7 +21,7 @@ kind: ConfigMap
 metadata:
   name: {{ include "common.names.fullname" . }}
 data:
-  myvalue: "Hello World"
+  myvalue: "Hello World-new"
 ```
 
 Looking to use our applications in production? Try [VMware Tanzu Application Catalog](https://bitnami.com/enterprise), the commercial edition of the Bitnami catalog.
